@@ -600,36 +600,41 @@ footer{border-top:1px solid var(--border);padding:30px 20px;background:#08090a}
 </a>
 
 <footer>
-    <div class="footer-container">
-      <div class="footer-spacer"></div>
-      <div class="copyright">
+    <div class="footer-container" style="display: grid; grid-template-columns: 1fr auto 1fr; align-items: center;">
+      <!-- Empty spacer balance on the left -->
+      <div></div>
+
+      <!-- Centered copyright text -->
+      <div class="copyright" style="text-align: center;">
         © 2026 NSX Tilt Plate Bracket. Precision OEM+ Engineering | Melbourne, Australia. All Rights Reserved.
       </div>
-      <div class="share-container">
+
+      <!-- Share section aligned to the far right -->
+      <div class="share-container" style="justify-self: end;">
         <span class="share-title">SHARE<br>THIS PAGE</span>
         <div class="share-icons">
           <!-- Facebook -->
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fyourdomain.com" class="share-icon" aria-label="Facebook" target="_blank" rel="noopener">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnsxtiltplate.github.io%2Fnsx-bracket-test32%2F" class="share-icon" aria-label="Facebook" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
           </a>
           <!-- X (Twitter) -->
-          <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fyourdomain.com" class="share-icon" aria-label="X" target="_blank" rel="noopener">
+          <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fnsxtiltplate.github.io%2Fnsx-bracket-test32%2F" class="share-icon" aria-label="X" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
           </a>
           <!-- LinkedIn -->
-          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fyourdomain.com" class="share-icon" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fnsxtiltplate.github.io%2Fnsx-bracket-test32%2F" class="share-icon" aria-label="LinkedIn" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
           </a>
           <!-- WhatsApp -->
-          <a href="https://api.whatsapp.com/send?text=https%3A%2F%2Fyourdomain.com" class="share-icon" aria-label="WhatsApp" target="_blank" rel="noopener">
+          <a href="https://api.whatsapp.com/send?text=https%3A%2F%2Fnsxtiltplate.github.io%2Fnsx-bracket-test32%2F" class="share-icon" aria-label="WhatsApp" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c4.55 0 8.24 3.69 8.24 8.24 0 2.2-.86 4.27-2.42 5.82a8.19 8.19 0 0 1-5.83 2.42c-1.47 0-2.91-.39-4.18-1.15l-.3-.18-3.11.82.83-3.03-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.23-8.24zm4.52 10.28c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.65.81-.8 0.98-.15.17-.3.19-.55.06-.25-.13-1.06-.39-2.02-1.24-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.15.17-.25.25-.42.08-.17.04-.32-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.48-.41-.41-.56-.42h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.31z"/></svg>
           </a>
           <!-- Email -->
-          <a href="mailto:?subject=NSX%20Tilt%20License%20Plate%20Bracket&body=Check%20this%20out:%20https%3A%2F%2Fyourdomain.com" class="share-icon" aria-label="Email">
+          <a href="mailto:?subject=NSX%20Tilt%20License%20Plate%20Bracket&body=Check%20this%20out:%20https%3A%2F%2Fnsxtiltplate.github.io%2Fnsx-bracket-test32%2F" class="share-icon" aria-label="Email">
             <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
           </a>
           <!-- Reddit -->
-          <a href="https://www.reddit.com/submit?url=https%3A%2F%2Fyourdomain.com&title=NSX%20Tilt%20License%20Plate%20Bracket" class="share-icon" aria-label="Reddit" target="_blank" rel="noopener">
+          <a href="https://www.reddit.com/submit?url=https%3A%2F%2Fnsxtiltplate.github.io%2Fnsx-bracket-test32%2F&title=NSX%20Tilt%20License%20Plate%20Bracket" class="share-icon" aria-label="Reddit" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.562-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.688-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
           </a>
         </div>
