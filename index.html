@@ -240,7 +240,7 @@ footer{border-top:1px solid var(--border);padding:30px 20px;background:#08090a}
 </nav>
 
 <!-- HERO -->
-<div class="container hero reveal" id="overview" style="display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start;">
+<div class="container hero reveal" id="overview" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 32px;">
   <div>
     <span class="badge">Batch 01 Production Run</span>
     <h1>Zero-Drill NSX Tilt License Plate Bracket</h1>
@@ -600,14 +600,17 @@ footer{border-top:1px solid var(--border);padding:30px 20px;background:#08090a}
 </a>
 
 <footer>
-  <div class="footer-container">
+  <div class="footer-container" style="display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; max-width: 100%; padding: 0 40px;">
+    <!-- Left balancing spacer -->
+    <div></div>
+
     <!-- Centered copyright text -->
-    <div class="copyright">
+    <div class="copyright" style="text-align: center;">
       © 2026 NSX Tilt Plate Bracket. Precision OEM+ Engineering | Melbourne, Australia. All Rights Reserved.
     </div>
 
-    <!-- Share section -->
-    <div class="share-container">
+    <!-- Share block positioned midway between content edge and window right -->
+    <div class="share-container" style="justify-self: center; margin-left: auto; margin-right: 80px;">
       <span class="share-title">SHARE<br>THIS PAGE</span>
       <div class="share-icons">
         <!-- Facebook -->
